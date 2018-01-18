@@ -1,6 +1,7 @@
 # VGA_mem_mapped
 
-![screenshot](https://github.com/delhatch/VGA_mem_mapped/blob/master/system_diagram.jpg)
+![screenshot](https://github.com/delhatch/VGA_mem_mapped/blob/master/Picture.jpg)
+![screenshot](https://github.com/delhatch/VGA_mem_mapped/blob/master/system_diagram.JPG)
 
 Author
 
@@ -33,7 +34,8 @@ However, this is much slower than the direct-logic implimentation I created at h
 ** Create Project
 
 In Vivado 2017.4, build the system as shown in the system_diagram.jpg file.
-![system diagram](https://github.com/delhatch/VGA_mem_mapped/blob/master/system_diagram.jpg)
+
+![system diagram](https://github.com/delhatch/VGA_mem_mapped/blob/master/system_diagram.JPG)
 
 The VGA core is found (packed as IP) in the directory VGA_1_0_D. You will have to modify the Vivado IP directory path settings.
 
