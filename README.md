@@ -1,13 +1,13 @@
 # VGA_mem_mapped
 
-![screenshot](https://github.com/delhatch/VGA_mem_mapped/blob/master/Picture.jpg)
-![screenshot](https://github.com/delhatch/VGA_mem_mapped/blob/master/system_diagram.JPG)
-
 Author
 
 Del Hatch
 
 ** Memory-mapped VGA display
+
+![screenshot](https://github.com/delhatch/VGA_mem_mapped/blob/master/Picture.jpg)
+![screenshot](https://github.com/delhatch/VGA_mem_mapped/blob/master/system_diagram.JPG)
 
 The purpose of this project is to demostrate the functionality of a memory-mapped VGA display. The VGA core is by Andrew Powell (https://github.com/andrewandrepowell/VGA_1.0/)
 
