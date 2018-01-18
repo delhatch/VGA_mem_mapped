@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# 
+# Start of session at: Wed Jan 17 19:25:46 2018
+# Process ID: 4224
+# Current directory: C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/webtalk/webtalk.log
+# Journal file: C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

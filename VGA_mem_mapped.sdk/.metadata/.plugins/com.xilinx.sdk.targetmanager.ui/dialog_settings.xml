@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Auto Detect" key="VGA_top_wrapper_hw_platform_0-device"/>
+	<item value="VGA_top_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="VGA_top_wrapper.bit" key="VGA_top_wrapper_hw_platform_0-bitFile"/>
+	<item value="Local" key="VGA_top_wrapper_hw_platform_0-target"/>
+	<item value="false" key="VGA_top_wrapper_hw_platform_0-partial_bit"/>
+	<item value="" key="VGA_top_wrapper_hw_platform_0-bmmFile"/>
+</section>

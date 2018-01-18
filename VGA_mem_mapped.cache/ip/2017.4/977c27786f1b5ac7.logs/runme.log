@@ -1,0 +1,811 @@
+
+*** Running vivado
+    with args -log VGA_top_VGA_v1_0_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source VGA_top_VGA_v1_0_0_0.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source VGA_top_VGA_v1_0_0_0.tcl -notrace
+Command: synth_design -top VGA_top_VGA_v1_0_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7856 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 356.262 ; gain = 97.590
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'VGA_top_VGA_v1_0_0_0' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/synth/VGA_top_VGA_v1_0_0_0.vhd:129]
+	Parameter C_s_axi_config_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_s_axi_config_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_m_axi_fb_TARGET_SLAVE_BASE_ADDR bound to: 32'b00000000000000000000000000000000 
+	Parameter C_m_axi_fb_BURST_LEN bound to: 256 - type: integer 
+	Parameter C_m_axi_fb_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_m_axi_fb_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_m_axi_fb_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_m_axi_fb_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_BUSER_WIDTH bound to: 0 - type: integer 
+	Parameter BITS_PER_PE bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'VGA_v1_0' declared at 'c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:32' bound to instance 'U0' of component 'VGA_v1_0' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/synth/VGA_top_VGA_v1_0_0_0.vhd:296]
+INFO: [Synth 8-638] synthesizing module 'VGA_v1_0' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:125]
+	Parameter C_s_axi_config_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_s_axi_config_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_m_axi_fb_TARGET_SLAVE_BASE_ADDR bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_BURST_LEN bound to: 256 - type: integer 
+	Parameter C_m_axi_fb_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_m_axi_fb_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_m_axi_fb_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_m_axi_fb_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_BUSER_WIDTH bound to: 0 - type: integer 
+	Parameter BITS_PER_PE bound to: 4 - type: integer 
+WARNING: [Synth 8-506] null port 'm_axi_fb_awuser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:90]
+WARNING: [Synth 8-506] null port 'm_axi_fb_wuser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:96]
+WARNING: [Synth 8-506] null port 'm_axi_fb_buser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:101]
+WARNING: [Synth 8-506] null port 'm_axi_fb_aruser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:113]
+WARNING: [Synth 8-506] null port 'm_axi_fb_ruser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:120]
+WARNING: [Synth 8-5640] Port 'hor_counter' is missing in component declaration [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:140]
+WARNING: [Synth 8-5640] Port 'ver_counter' is missing in component declaration [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:140]
+INFO: [Synth 8-3491] module 'VGA' declared at 'c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA.vhd:27' bound to instance 'VGA_0' of component 'VGA' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:285]
+INFO: [Synth 8-638] synthesizing module 'VGA' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA.vhd:41]
+	Parameter COUNTER_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA.vhd:86]
+INFO: [Synth 8-226] default block is never used [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA.vhd:133]
+INFO: [Synth 8-256] done synthesizing module 'VGA' (1#1) [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA.vhd:41]
+	Parameter BITS_PER_PE bound to: 4 - type: integer 
+	Parameter C_m_axi_fb_BURST_LEN bound to: 256 - type: integer 
+	Parameter C_m_axi_fb_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_m_axi_fb_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_s_axi_config_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'VGA_controller' declared at 'c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA_controller.vhd:26' bound to instance 'VGA_controller_0' of component 'VGA_controller' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:294]
+INFO: [Synth 8-638] synthesizing module 'VGA_controller' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA_controller.vhd:53]
+	Parameter C_m_axi_fb_BURST_LEN bound to: 256 - type: integer 
+	Parameter C_m_axi_fb_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_m_axi_fb_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_s_axi_config_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter BITS_PER_PE bound to: 4 - type: integer 
+	Parameter BG_B_COLOR bound to: 4'b0000 
+	Parameter BG_G_COLOR bound to: 4'b0000 
+	Parameter BG_R_COLOR bound to: 4'b0000 
+INFO: [Synth 8-3491] module 'blk_mem_gen_pixel' declared at 'c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/synth/blk_mem_gen_pixel.vhd:59' bound to instance 'blk_mem_gen_pixel_0' of component 'blk_mem_gen_pixel' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA_controller.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_pixel' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/synth/blk_mem_gen_pixel.vhd:71]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: blk_mem_gen_pixel.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 64 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 64 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: READ_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 64 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 64 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 1 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 1 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     6.966099 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_1' declared at 'c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195313' bound to instance 'U0' of component 'blk_mem_gen_v8_4_1' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/synth/blk_mem_gen_pixel.vhd:237]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_pixel' (10#1) [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/synth/blk_mem_gen_pixel.vhd:71]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'DownSample' declared at 'c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/DownSample.vhd:25' bound to instance 'DownSample_0' of component 'DownSample' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA_controller.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'DownSample' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/DownSample.vhd:34]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DownSample' (11#1) [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/DownSample.vhd:34]
+INFO: [Synth 8-226] default block is never used [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA_controller.vhd:165]
+WARNING: [Synth 8-6014] Unused sequential element min_word_pointer_reg was removed.  [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA_controller.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'VGA_controller' (12#1) [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA_controller.vhd:53]
+	Parameter C_m_axi_fb_BURST_LEN bound to: 256 - type: integer 
+	Parameter C_m_axi_fb_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_m_axi_fb_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_m_axi_fb_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_m_axi_fb_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_BUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_s_axi_config_DATA_WIDTH bound to: 32 - type: integer 
+WARNING: [Synth 8-506] null port 'm_axi_fb_awuser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:204]
+WARNING: [Synth 8-506] null port 'm_axi_fb_wuser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:210]
+WARNING: [Synth 8-506] null port 'm_axi_fb_buser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:215]
+WARNING: [Synth 8-506] null port 'm_axi_fb_aruser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:227]
+WARNING: [Synth 8-506] null port 'm_axi_fb_ruser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:234]
+INFO: [Synth 8-3491] module 'axi_fb_controller' declared at 'c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_fb_controller.vhd:34' bound to instance 'axi_fb_controller_0' of component 'axi_fb_controller' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:311]
+INFO: [Synth 8-638] synthesizing module 'axi_fb_controller' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_fb_controller.vhd:102]
+	Parameter C_m_axi_fb_BURST_LEN bound to: 256 - type: integer 
+	Parameter C_m_axi_fb_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_m_axi_fb_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_m_axi_fb_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_m_axi_fb_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_m_axi_fb_BUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_s_axi_config_DATA_WIDTH bound to: 32 - type: integer 
+WARNING: [Synth 8-506] null port 'm_axi_fb_awuser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_fb_controller.vhd:67]
+WARNING: [Synth 8-506] null port 'm_axi_fb_wuser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_fb_controller.vhd:73]
+WARNING: [Synth 8-506] null port 'm_axi_fb_buser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_fb_controller.vhd:78]
+WARNING: [Synth 8-506] null port 'm_axi_fb_aruser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_fb_controller.vhd:90]
+WARNING: [Synth 8-506] null port 'm_axi_fb_ruser' ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_fb_controller.vhd:97]
+WARNING: [Synth 8-3919] null assignment ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_fb_controller.vhd:147]
+WARNING: [Synth 8-3919] null assignment ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_fb_controller.vhd:152]
+WARNING: [Synth 8-3919] null assignment ignored [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_fb_controller.vhd:169]
+INFO: [Synth 8-256] done synthesizing module 'axi_fb_controller' (13#1) [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_fb_controller.vhd:102]
+	Parameter C_m_axi_fb_TARGET_SLAVE_BASE_ADDR bound to: 0 - type: integer 
+	Parameter C_s_axi_config_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_s_axi_config_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'axi_config_controller' declared at 'c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_config_controller.vhd:27' bound to instance 'axi_config_controller_0' of component 'axi_config_controller' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:364]
+INFO: [Synth 8-638] synthesizing module 'axi_config_controller' [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_config_controller.vhd:64]
+	Parameter C_m_axi_fb_TARGET_SLAVE_BASE_ADDR bound to: 0 - type: integer 
+	Parameter C_s_axi_config_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_s_axi_config_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_config_controller.vhd:121]
+INFO: [Synth 8-256] done synthesizing module 'axi_config_controller' (14#1) [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/axi_config_controller.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'VGA_v1_0' (15#1) [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/hdl/VGA_v1_0.vhd:125]
+WARNING: [Synth 8-3848] Net m_axi_fb_awuser in module/entity VGA_top_VGA_v1_0_0_0 does not have driver. [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/synth/VGA_top_VGA_v1_0_0_0.vhd:184]
+WARNING: [Synth 8-3848] Net m_axi_fb_wuser in module/entity VGA_top_VGA_v1_0_0_0 does not have driver. [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/synth/VGA_top_VGA_v1_0_0_0.vhd:190]
+WARNING: [Synth 8-3848] Net m_axi_fb_aruser in module/entity VGA_top_VGA_v1_0_0_0 does not have driver. [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/synth/VGA_top_VGA_v1_0_0_0.vhd:207]
+INFO: [Synth 8-256] done synthesizing module 'VGA_top_VGA_v1_0_0_0' (16#1) [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/synth/VGA_top_VGA_v1_0_0_0.vhd:129]
+WARNING: [Synth 8-3331] design axi_fb_controller has unconnected port m_axi_fb_awready
+WARNING: [Synth 8-3331] design axi_fb_controller has unconnected port m_axi_fb_wready
+WARNING: [Synth 8-3331] design axi_fb_controller has unconnected port m_axi_fb_bid[0]
+WARNING: [Synth 8-3331] design axi_fb_controller has unconnected port m_axi_fb_bresp[1]
+WARNING: [Synth 8-3331] design axi_fb_controller has unconnected port m_axi_fb_bresp[0]
+WARNING: [Synth 8-3331] design axi_fb_controller has unconnected port m_axi_fb_bvalid
+WARNING: [Synth 8-3331] design axi_fb_controller has unconnected port m_axi_fb_rid[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SSRA
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port REGCEA
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SSRB
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port WEB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[71]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[70]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[69]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[68]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[67]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[66]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[65]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[64]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[63]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[62]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[61]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[60]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[59]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[58]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[57]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[56]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[55]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[54]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[53]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[52]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[51]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[50]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[49]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[48]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[47]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[46]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[45]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[44]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[43]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[42]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[41]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[40]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[39]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[38]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[37]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[36]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[35]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[34]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[33]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[32]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[31]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[30]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[29]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[28]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[27]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[26]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[25]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[24]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[23]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[22]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[21]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[20]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[19]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[18]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[17]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[16]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[15]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[14]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[13]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[12]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[11]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[10]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[9]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[8]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[7]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[6]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[5]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[4]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[3]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SLEEP
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ECCPIPECE
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ram_rstram_a
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ram_rstreg_a
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port REGCEA[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEA[7]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEA[6]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEA[5]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEA[4]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEA[3]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEA[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEA[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port RSTB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEB[7]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEB[6]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEB[5]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port WEB[4]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:49 ; elapsed = 00:01:51 . Memory (MB): peak = 601.336 ; gain = 342.664
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:49 ; elapsed = 00:01:51 . Memory (MB): peak = 601.336 ; gain = 342.664
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/blk_mem_gen_pixel_ooc.xdc] for cell 'U0'
+WARNING: [Vivado 12-584] No ports matched 'clka'. [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/blk_mem_gen_pixel_ooc.xdc:53]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clka]'. [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/blk_mem_gen_pixel_ooc.xdc:53]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'clka'. [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/blk_mem_gen_pixel_ooc.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/blk_mem_gen_pixel_ooc.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clkb'. [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/blk_mem_gen_pixel_ooc.xdc:56]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clkb]'. [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/blk_mem_gen_pixel_ooc.xdc:56]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'clkb'. [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/blk_mem_gen_pixel_ooc.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/blk_mem_gen_pixel_ooc.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ip/VGA_top_VGA_v1_0_0_0/VGA_1_0_D.srcs/sources_1/ip/blk_mem_gen_pixel/blk_mem_gen_pixel_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/VGA_top_VGA_v1_0_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/VGA_top_VGA_v1_0_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 742.441 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:02:04 ; elapsed = 00:02:06 . Memory (MB): peak = 742.441 ; gain = 483.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:04 ; elapsed = 00:02:06 . Memory (MB): peak = 742.441 ; gain = 483.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/VGA_top_VGA_v1_0_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:04 ; elapsed = 00:02:06 . Memory (MB): peak = 742.441 ; gain = 483.770
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'gat_state_reg' in module 'VGA_controller'
+INFO: [Synth 8-5544] ROM "gat_ready" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element pixel_pointer_reg was removed.  [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA_controller.vhd:160]
+INFO: [Synth 8-802] inferred FSM for state register 'm_axi_fb_state_reg' in module 'axi_fb_controller'
+INFO: [Synth 8-5544] ROM "error_reg_buff" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "m_axi_fb_arvalid_buff" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_buff" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "m_axi_fb_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            s_gat_enable |                               00 |                               00
+            s_gat_axi_fb |                               01 |                               01
+             s_gat_ready |                               10 |                               10
+                  iSTATE |                               11 |                               11
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gat_state_reg' using encoding 'sequential' in module 'VGA_controller'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+       m_axi_fb_s_enable |                              000 |                              000
+           m_axi_fb_s_ar |                              001 |                              001
+            m_axi_fb_s_r |                              010 |                              010
+        m_axi_fb_s_ready |                              011 |                              011
+                  iSTATE |                              100 |                              111
+*
+          m_axi_fb_s_err |                              101 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'm_axi_fb_state_reg' using encoding 'sequential' in module 'axi_fb_controller'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:04 ; elapsed = 00:02:07 . Memory (MB): peak = 742.441 ; gain = 483.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 2     
+	               32 Bit    Registers := 7     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 22    
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 8     
+	   4 Input     10 Bit        Muxes := 2     
+	   4 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 5     
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 35    
+	   2 Input      1 Bit        Muxes := 6     
+	   6 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module VGA 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 8     
+	   4 Input     10 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 11    
+Module DownSample 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 2     
+Module VGA_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 2     
+	               32 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   4 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 13    
+	   2 Input      1 Bit        Muxes := 5     
+Module axi_fb_controller 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   8 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 5     
+Module axi_config_controller 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 4     
+	   3 Input      8 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 11    
+Module VGA_v1_0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "axi_config_controller_0/" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element VGA_controller_0/pixel_pointer_reg was removed.  [c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.srcs/sources_1/bd/VGA_top/ipshared/1f00/src/VGA_controller.vhd:160]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_fb_controller_0/error_reg_buff_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\VGA_controller_0/i_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_config_controller_0/s_axi_config_rresp_buff_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\axi_config_controller_0/s_axi_config_bresp_buff_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/word_pointer_reg[8]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_pointer_reg[10]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[63]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[62]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[61]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[60]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[47]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[46]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[45]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[44]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[31]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[30]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[29]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[28]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[15]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[14]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[13]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/pixel_buffer_reg[12]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/i_reg[2]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/word_pointer_reg[8]__0) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/gat_address_base_reg[6]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/gat_address_base_reg[5]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/gat_address_base_reg[4]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/gat_address_base_reg[3]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/gat_address_base_reg[2]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/gat_address_base_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_controller_0/gat_address_base_reg[0]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_config_controller_0/s_axi_config_awprot_buff_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_config_controller_0/s_axi_config_awprot_buff_reg[0]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_config_controller_0/s_axi_config_bresp_buff_reg[0]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[31]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[30]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[29]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[28]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[27]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[26]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[25]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[24]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[23]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[22]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[21]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[20]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[19]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[18]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[17]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[16]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[15]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[14]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[13]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[12]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[11]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[10]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[9]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[8]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[7]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[6]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[5]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[4]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[3]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_fb_controller_0/error_reg_buff_reg[2]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_config_controller_0/s_axi_config_arprot_buff_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_config_controller_0/s_axi_config_arprot_buff_reg[0]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (axi_config_controller_0/s_axi_config_rresp_buff_reg[0]) is unused and will be removed from module VGA_v1_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:06 ; elapsed = 00:02:09 . Memory (MB): peak = 742.441 ; gain = 483.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:17 ; elapsed = 00:02:20 . Memory (MB): peak = 780.930 ; gain = 522.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:17 ; elapsed = 00:02:20 . Memory (MB): peak = 781.492 ; gain = 522.820
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'U0/VGA_controller_0/pixel_pointer_reg[0]' (FDRE) to 'U0/VGA_controller_0/i_reg[0]'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:18 ; elapsed = 00:02:20 . Memory (MB): peak = 802.801 ; gain = 544.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:19 ; elapsed = 00:02:21 . Memory (MB): peak = 802.801 ; gain = 544.129
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:19 ; elapsed = 00:02:21 . Memory (MB): peak = 802.801 ; gain = 544.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:19 ; elapsed = 00:02:22 . Memory (MB): peak = 802.801 ; gain = 544.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:19 ; elapsed = 00:02:22 . Memory (MB): peak = 802.801 ; gain = 544.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:19 ; elapsed = 00:02:22 . Memory (MB): peak = 802.801 ; gain = 544.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:19 ; elapsed = 00:02:22 . Memory (MB): peak = 802.801 ; gain = 544.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    14|
+|2     |LUT1     |     6|
+|3     |LUT2     |    66|
+|4     |LUT3     |    29|
+|5     |LUT4     |    58|
+|6     |LUT5     |    28|
+|7     |LUT6     |    64|
+|8     |RAMB36E1 |     1|
+|9     |FDRE     |   423|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------------------------------------------------+-------------------------+------+
+|      |Instance                                           |Module                   |Cells |
++------+---------------------------------------------------+-------------------------+------+
+|1     |top                                                |                         |   689|
+|2     |  U0                                               |VGA_v1_0                 |   689|
+|3     |    VGA_0                                          |VGA                      |   101|
+|4     |    VGA_controller_0                               |VGA_controller           |   335|
+|5     |      DownSample_0                                 |DownSample               |     5|
+|6     |      blk_mem_gen_pixel_0                          |blk_mem_gen_pixel        |     1|
+|7     |        U0                                         |blk_mem_gen_v8_4_1       |     1|
+|8     |          inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth |     1|
+|9     |            \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top          |     1|
+|10    |              \valid.cstr                          |blk_mem_gen_generic_cstr |     1|
+|11    |                \ramloop[0].ram.r                  |blk_mem_gen_prim_width   |     1|
+|12    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper |     1|
+|13    |    axi_config_controller_0                        |axi_config_controller    |   196|
+|14    |    axi_fb_controller_0                            |axi_fb_controller        |    55|
++------+---------------------------------------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:19 ; elapsed = 00:02:22 . Memory (MB): peak = 802.801 ; gain = 544.129
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 328 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:02:13 . Memory (MB): peak = 802.801 ; gain = 403.023
+Synthesis Optimization Complete : Time (s): cpu = 00:02:19 ; elapsed = 00:02:22 . Memory (MB): peak = 802.801 ; gain = 544.129
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+86 Infos, 193 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:21 ; elapsed = 00:02:24 . Memory (MB): peak = 803.738 ; gain = 556.734
+INFO: [Common 17-1381] The checkpoint 'C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/VGA_top_VGA_v1_0_0_0_synth_1/VGA_top_VGA_v1_0_0_0.dcp' has been generated.

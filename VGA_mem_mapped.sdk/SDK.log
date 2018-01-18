@@ -1,0 +1,1338 @@
+18:45:21 INFO  : Registering command handlers for SDK TCF services
+18:45:21 INFO  : Launching XSCT server: xsct.bat -interactive C:\Zynq_Book\VGA_mem_mapped\VGA_mem_mapped.sdk\temp_xsdb_launch_script.tcl
+18:45:25 INFO  : XSCT server has started successfully.
+18:45:26 INFO  : Successfully done setting XSCT server connection channel  
+18:45:26 INFO  : Successfully done setting SDK workspace  
+18:45:26 INFO  : Processing command line option -hwspec C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/VGA_top_wrapper.hdf.
+19:07:14 WARN  : Given IPC port value is invalid. Using default port 2350
+19:07:14 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+19:07:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:19 INFO  : ps7_init is completed.
+19:07:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:19 INFO  : ps7_post_config is completed.
+19:07:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:07:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:07:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:20:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:20:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:25:47 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:26:22 INFO  : Registering command handlers for SDK TCF services
+19:26:22 INFO  : Launching XSCT server: xsct.bat -interactive C:\Zynq_Book\VGA_mem_mapped\VGA_mem_mapped.sdk\temp_xsdb_launch_script.tcl
+19:26:24 INFO  : XSCT server has started successfully.
+19:26:24 INFO  : Successfully done setting XSCT server connection channel  
+19:26:24 INFO  : Successfully done setting SDK workspace  
+19:26:24 INFO  : Processing command line option -hwspec C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/VGA_top_wrapper.hdf.
+19:26:24 INFO  : Checking for hwspec changes in the project VGA_top_wrapper_hw_platform_0.
+19:26:27 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1516245951610,  Project:1516243490443
+19:26:27 INFO  : The hardware specification for project 'VGA_top_wrapper_hw_platform_0' is different from C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/VGA_top_wrapper.hdf.
+19:26:27 INFO  : Copied contents of C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/VGA_top_wrapper.hdf into \VGA_top_wrapper_hw_platform_0\system.hdf.
+19:26:30 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:26:32 INFO  : 
+19:26:33 INFO  : Updating hardware inferred compiler options for VGA_demo.
+19:26:33 INFO  : Clearing existing target manager status.
+19:26:33 WARN  : Given IPC port value is invalid. Using default port 2350
+19:26:33 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+19:26:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:45 INFO  : ps7_init is completed.
+19:27:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:45 INFO  : ps7_post_config is completed.
+19:27:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:34:38 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:37:10 INFO  : Registering command handlers for SDK TCF services
+19:37:10 INFO  : Launching XSCT server: xsct.bat -interactive C:\Zynq_Book\VGA_mem_mapped\VGA_mem_mapped.sdk\temp_xsdb_launch_script.tcl
+19:37:12 INFO  : XSCT server has started successfully.
+19:37:12 INFO  : Successfully done setting XSCT server connection channel  
+19:37:12 INFO  : Successfully done setting SDK workspace  
+19:37:12 INFO  : Processing command line option -hwspec C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/VGA_top_wrapper.hdf.
+19:37:12 INFO  : Checking for hwspec changes in the project VGA_top_wrapper_hw_platform_0.
+19:37:15 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1516246602514,  Project:1516245951610
+19:37:15 INFO  : The hardware specification for project 'VGA_top_wrapper_hw_platform_0' is different from C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/VGA_top_wrapper.hdf.
+19:37:15 INFO  : Copied contents of C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/VGA_top_wrapper.hdf into \VGA_top_wrapper_hw_platform_0\system.hdf.
+19:37:34 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:37:36 INFO  : 
+19:37:36 INFO  : Updating hardware inferred compiler options for VGA_demo.
+19:37:36 INFO  : Clearing existing target manager status.
+19:37:36 WARN  : Given IPC port value is invalid. Using default port 2350
+19:37:36 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+19:37:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:17 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:21 INFO  : ps7_init is completed.
+19:38:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:21 INFO  : ps7_post_config is completed.
+19:38:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:38:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+19:38:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:27:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:27:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A2729F" && level==0} -index 1' command is executed.
+09:27:34 INFO  : FPGA configured successfully with bitstream "C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/VGA_top_wrapper_hw_platform_0/VGA_top_wrapper.bit"
+09:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:47 INFO  : ps7_init is completed.
+09:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:47 INFO  : ps7_post_config is completed.
+09:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:27:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:28:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:28:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:29:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:30:09 INFO  : Registering command handlers for SDK TCF services
+09:30:09 INFO  : Launching XSCT server: xsct.bat -interactive C:\Zynq_Book\VGA_mem_mapped\VGA_mem_mapped.sdk\temp_xsdb_launch_script.tcl
+09:30:11 INFO  : XSCT server has started successfully.
+09:30:11 INFO  : Successfully done setting XSCT server connection channel  
+09:30:12 INFO  : Successfully done setting SDK workspace  
+09:30:12 INFO  : Processing command line option -hwspec C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/VGA_top_wrapper.hdf.
+09:30:12 INFO  : Checking for hwspec changes in the project VGA_top_wrapper_hw_platform_0.
+09:31:06 WARN  : Given IPC port value is invalid. Using default port 2350
+09:31:06 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+09:31:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:31:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:19 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to claim JTAG Device 1 for debug. Check if it's
+    in use by other client for debug
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:478)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:503)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+09:47:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:47:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:47:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:48:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:48:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:50:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:50:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:52:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:52:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:04:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:12:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:12:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:38:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:38:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:38:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:38:35 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to claim JTAG Device 1 for debug. Check if it's
+    in use by other client for debug
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:478)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:503)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:39:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:39:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:43:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:43:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:43:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:45:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:45:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:47:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:47:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:49:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:49:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:50:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:50:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:51:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:51:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:52:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:56:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:56:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:58:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:59:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:59:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:00:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:00:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:01:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:01:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:04:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:04:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:05:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:07:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:07:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:07:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:08:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:08:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:08:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:09:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:09:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:10:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:10:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:14:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:14:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:15:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:15:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:18:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:18:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:23:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:23:08 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+12:23:08 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:368)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+12:23:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:23:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:23:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A2729F" && level==0} -index 1' command is executed.
+12:24:00 INFO  : FPGA configured successfully with bitstream "C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.sdk/VGA_top_wrapper_hw_platform_0/VGA_top_wrapper.bit"
+12:24:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:08 INFO  : ps7_init is completed.
+12:24:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:08 INFO  : ps7_post_config is completed.
+12:24:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:24:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:24:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:30:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:30:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:30:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:30:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:31:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:31:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:32:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:32:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:32:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:32:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:36:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:36:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:39:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:40:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:40:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:42:38 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:42:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:42:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:42:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:42:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:43:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:43:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:44:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:44:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:44:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:47:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:47:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:55:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:55:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:55:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:00:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:00:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:04:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:04:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:05:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:05:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:08:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:08:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:08:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:10:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:10:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:11:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:11:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:11:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:13:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:13:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:25:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:25:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:05 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:28:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:28:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:38:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:38:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:38:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:43:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:43:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:43:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:22:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:22:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:22:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:25:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:25:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:25:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:26:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:26:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:26:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:26:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

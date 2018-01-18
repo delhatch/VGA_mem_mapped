@@ -1,0 +1,43 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 60 -defaultsOSRD
+preplace port VGA_vSync -pg 1 -y 390 -defaultsOSRD
+preplace port leds_8bits -pg 1 -y 550 -defaultsOSRD
+preplace port VGA_hSync -pg 1 -y 370 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 80 -defaultsOSRD
+preplace portBus VGA_B -pg 1 -y 410 -defaultsOSRD
+preplace portBus VGA_R -pg 1 -y 450 -defaultsOSRD
+preplace portBus VGA_G -pg 1 -y 430 -defaultsOSRD
+preplace inst VGA_v1_0_0 -pg 1 -lvl 3 -y 390 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 3 -y 550 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -y 70 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 2 -y 490 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -y 400 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -y 140 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 3 1 NJ
+preplace netloc VGA_v1_0_0_h_sync 1 3 1 1360
+preplace netloc VGA_v1_0_0_vga_b 1 3 1 1360
+preplace netloc VGA_v1_0_0_m_axi_fb 1 1 3 590 290 NJ 290 1350
+preplace netloc VGA_v1_0_0_v_sync 1 3 1 1350
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 570 370 850
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 4 10J 270 NJ 270 NJ 270 1350
+preplace netloc VGA_v1_0_0_vga_r 1 3 1 1360
+preplace netloc VGA_v1_0_0_vga_g 1 3 1 1350
+preplace netloc S00_AXI_1 1 1 3 590 -90 N -90 1360
+preplace netloc processing_system7_0_FIXED_IO 1 3 1 NJ
+preplace netloc axi_gpio_0_GPIO 1 3 1 N
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 890
+preplace netloc axi_interconnect_0_M01_AXI 1 2 1 860
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 310 560 -70 880 10 1350
+preplace netloc axi_interconnect_1_M00_AXI 1 2 1 870
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 1 580
+levelinfo -pg 1 -10 390 720 1120 1430 -top -140 -bot 630
+",
+}
+{
+   da_board_cnt: "1",
+   da_clkrst_cnt: "8",
+   da_ps7_cnt: "1",
+}

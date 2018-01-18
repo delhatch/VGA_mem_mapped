@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1516246352">
+  <File Type="OPT-HWDEF" Name="VGA_top_wrapper.hwdef"/>
+  <File Type="PA-DCP" Name="VGA_top_wrapper.dcp"/>
+  <File Type="OPT-DCP" Name="VGA_top_wrapper_opt.dcp"/>
+  <File Type="ROUTE-PWR" Name="VGA_top_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="VGA_top_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="VGA_top_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="VGA_top_wrapper_reports.tcl"/>
+  <File Type="BG-DRC" Name="VGA_top_wrapper.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="VGA_top_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="VGA_top_wrapper_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="VGA_top_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="VGA_top_wrapper_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="VGA_top_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="VGA_top_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="VGA_top_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="VGA_top_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="VGA_top_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="VGA_top_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="VGA_top_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="VGA_top_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="VGA_top_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="VGA_top_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="VGA_top_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="VGA_top_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="VGA_top_wrapper_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="VGA_top_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="VGA_top_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="VGA_top_wrapper_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="VGA_top_wrapper.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="VGA_top_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="VGA_top_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="VGA_top_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="VGA_top_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="VGA_top_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="VGA_top_wrapper_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="VGA_top_wrapper.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="VGA_top_wrapper_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="VGA_top_wrapper.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="VGA_top_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="VGA_top_wrapper.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="VGA_top_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="VGA_top_wrapper.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="VGA_top_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="VGA_top_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="VGA_top_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="VGA_top_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="VGA_top_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="VGA_top_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="VGA_top_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="VGA_top_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="VGA_top_wrapper.vdi"/>
+  <File Type="ROUTE-CLK" Name="VGA_top_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="VGA_top_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="VGA_top_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="VGA_top_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="VGA_top_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="VGA_top_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="VGA_top_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="VGA_top_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="VGA_top_wrapper.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="VGA_top_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="VGA_top_wrapper.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/VGA_top/VGA_top.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/VGA_top/hdl/VGA_top_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="VGA_top_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/zedboard_constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/debug.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/debug.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="VGA_top_auto_pc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="VGA_top_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="VGA_top_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="VGA_top_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="VGA_top_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="VGA_top_VGA_v1_0_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="VGA_top_auto_pc_0"/>
+</GenRun>

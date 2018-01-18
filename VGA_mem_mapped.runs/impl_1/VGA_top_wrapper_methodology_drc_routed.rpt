@@ -1,0 +1,1002 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Jan 17 19:35:26 2018
+| Host         : Del_Alienware running 64-bit Service Pack 1  (build 7601)
+| Command      : report_methodology -file VGA_top_wrapper_methodology_drc_routed.rpt -pb VGA_top_wrapper_methodology_drc_routed.pb -rpx VGA_top_wrapper_methodology_drc_routed.rpx
+| Design       : VGA_top_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: checkpoint_VGA_top_wrapper
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 189
++-----------+----------+-------------------------------------------------+------------+
+| Rule      | Severity | Description                                     | Violations |
++-----------+----------+-------------------------------------------------+------------+
+| PDRC-190  | Warning  | Suboptimally placed synchronized register chain | 16         |
+| TIMING-17 | Warning  | Non-clocked sequential cell                     | 146        |
+| TIMING-18 | Warning  | Missing input or output delay                   | 8          |
+| XDCB-5    | Warning  | Runtime inefficient way to find pin objects     | 19         |
++-----------+----------+-------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-190#1 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[0] in site SLICE_X46Y40 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#2 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[1] in site SLICE_X47Y41 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#3 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[2] in site SLICE_X45Y40 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[2] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#4 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[3] in site SLICE_X46Y42 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[3] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#5 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_reg[0] in site SLICE_X44Y40 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_1_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#6 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_reg[1] in site SLICE_X45Y42 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_1_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#7 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_reg[2] in site SLICE_X44Y42 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_1_reg[2] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#8 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[12] in site SLICE_X48Y40 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[11] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#9 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[20] in site SLICE_X48Y39 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[19] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#10 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[4] in site SLICE_X48Y41 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[3] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#11 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[10] in site SLICE_X34Y32 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[9] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#12 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[2] in site SLICE_X34Y33 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#13 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/shift_reg_in_reg[0] in site SLICE_X38Y43 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#14 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[0] in site SLICE_X38Y44 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_1_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#15 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[1] in site SLICE_X36Y43 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_1_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#16 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[2] in site SLICE_X37Y44 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_1_reg[2] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/clock_hor_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/clock_ver_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/h_display_buff_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/h_sync_buff_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_counter_buff_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_counter_buff_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_counter_buff_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_counter_buff_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_counter_buff_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_counter_buff_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_counter_buff_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_counter_buff_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_counter_buff_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_counter_buff_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_state_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/hor_state_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/v_display_buff_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/v_sync_buff_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_counter_buff_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_counter_buff_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_counter_buff_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_counter_buff_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_counter_buff_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_counter_buff_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_counter_buff_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_counter_buff_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_counter_buff_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_counter_buff_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_state_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_0/ver_state_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/blk_addrb_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/blk_addrb_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/blk_addrb_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/blk_addrb_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/blk_addrb_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/blk_addrb_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/blk_addrb_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/blk_addrb_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#49 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#50 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#51 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#52 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#53 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#54 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#55 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#56 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#57 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#58 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#59 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#60 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#61 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#62 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#63 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_address_base_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#64 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_enable_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#65 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/i_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#66 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/i_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#67 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#68 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#69 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#70 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#71 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#72 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#73 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#74 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#75 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#76 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#77 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#78 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#79 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#80 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#81 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#82 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#83 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#84 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[32]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#85 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[33]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#86 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[34]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#87 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[35]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#88 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[36]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#89 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[37]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#90 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[38]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#91 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[39]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#92 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#93 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[40]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#94 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[41]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#95 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[42]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#96 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[43]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#97 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[48]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#98 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[49]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#99 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#100 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[50]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#101 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[51]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#102 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[52]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#103 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[53]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#104 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[54]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#105 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[55]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#106 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[56]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#107 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[57]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#108 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[58]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#109 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[59]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#110 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#111 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#112 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#113 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#114 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_buffer_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#115 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_pointer_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#116 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_pointer_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#117 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_pointer_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#118 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_pointer_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#119 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_pointer_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#120 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_pointer_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#121 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_pointer_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#122 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_pointer_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#123 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/pixel_pointer_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#124 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_b_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#125 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_b_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#126 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_b_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#127 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_b_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#128 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_g_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#129 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_g_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#130 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_g_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#131 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_g_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#132 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_r_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#133 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_r_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#134 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_r_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#135 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_r_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#136 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#137 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#138 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_synch_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#139 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/word_pointer_reg[0]__0/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#140 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/word_pointer_reg[1]__0/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#141 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/word_pointer_reg[2]__0/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#142 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/word_pointer_reg[3]__0/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#143 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/word_pointer_reg[4]__0/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#144 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/word_pointer_reg[5]__0/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#145 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/word_pointer_reg[6]__0/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#146 Warning
+Non-clocked sequential cell  
+The clock pin VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/word_pointer_reg[7]__0/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[0] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[1] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[2] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[3] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[4] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[5] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[6] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[7] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+XDCB-5#1 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/U_CDONE/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '54' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 80)
+Related violations: <none>
+
+XDCB-5#2 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/U_NS0/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '55' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 81)
+Related violations: <none>
+
+XDCB-5#3 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/U_NS1/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '56' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 82)
+Related violations: <none>
+
+XDCB-5#4 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/U_CMPRESET/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '43' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 63)
+Related violations: <none>
+
+XDCB-5#5 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/U_CMPRESET/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '48' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 74)
+Related violations: <none>
+
+XDCB-5#6 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/U_CMPRESET/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '49' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 75)
+Related violations: <none>
+
+XDCB-5#7 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCE/I_YESLUT6.U_SRLC16E/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '50' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 76)
+Related violations: <none>
+
+XDCB-5#8 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCE/I_YESLUT6.U_SRLC16E/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '51' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 77)
+Related violations: <none>
+
+XDCB-5#9 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCMPCE/I_YESLUT6.U_SRL32/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '41' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 60)
+Related violations: <none>
+
+XDCB-5#10 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCRST/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '52' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 78)
+Related violations: <none>
+
+XDCB-5#11 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/u_scnt_cmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '42' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 61)
+Related violations: <none>
+
+XDCB-5#12 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/U_WCE/I_YESLUT6.U_SRLC16E/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '53' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 79)
+Related violations: <none>
+
+XDCB-5#13 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/U_WHCMPCE/I_YESLUT6.U_SRL32/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '46' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 72)
+Related violations: <none>
+
+XDCB-5#14 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/U_WLCMPCE/I_YESLUT6.U_SRL32/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '47' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 73)
+Related violations: <none>
+
+XDCB-5#15 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_hcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '45' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 71)
+Related violations: <none>
+
+XDCB-5#16 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_lcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '44' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 70)
+Related violations: <none>
+
+XDCB-5#17 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '35' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 40)
+Related violations: <none>
+
+XDCB-5#18 Warning
+Runtime inefficient way to find pin objects  
+The option '-to : [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/I_IS_TERMINATION_SLICE_W_OUTPUT_REG.DOUT_O_reg/D}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '35' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/u_ila_0_CV.0/out/ila.xdc (Line: 40)
+Related violations: <none>
+
+XDCB-5#19 Warning
+Runtime inefficient way to find pin objects  
+The option 'objects : [get_pins -hierarchical -filter {NAME =~ "*BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK"}]' of constraint 'create_clock' uses inefficient query to find pin objects (see constraint position '7' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.runs/impl_1/.Xil/Vivado-6940-Del_Alienware/dbg_hub_CV.0/out/xsdbm.xdc (Line: 5)
+Related violations: <none>
+
+

@@ -1,0 +1,131 @@
+#include "platform.h"
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xstatus.h"
+#include "xil_printf.h"
+
+#include "VGA.h"
+#include "xil_mmu.h"
+#include "xil_assert.h"
+
+/* Definitions */
+#define GPIO_DEVICE_ID  XPAR_AXI_GPIO_0_DEVICE_ID	/* GPIO device that LEDs are connected to */
+#define LED 0x00									/* Initial LED value - XX0000XX */
+#define LED_DELAY 100000000							/* Software delay length */
+#define LED_CHANNEL 1								/* GPIO port for LEDs */
+#define printf xil_printf							/* smaller, optimised printf */
+
+#define VGA_CONFIG_BASE_ADDRESS 	0x43c00000
+#define VGA_MEMORY_ATTRIBUTE 0x00010c06
+
+XGpio Gpio;											/* GPIO Device driver instance */
+
+vga vga_obj;
+vga_frame vga_frame_obj;
+vga_pixel vga_pixel_obj;
+
+int j;
+
+int main()
+{
+    //init_platform();
+	//volatile int Delay;
+	int Status;
+	int led = LED; /* Hold current LED value. Initialise to LED definition */
+//---------------  LEDS  --------------------------------------------------
+	/* GPIO driver initialisation */
+	Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+	/*Set the direction for the LEDs to output. */
+	XGpio_SetDataDirection(&Gpio, LED_CHANNEL, 0x00);
+	/* Write output to the LEDs. */
+	XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, led);
+	xil_printf("-------------------------------------------\n\r");
+	//xil_printf("GPIO device = %x\n\r", XPAR_AXI_GPIO_0_DEVICE_ID);
+	//xil_printf("Gpio = %x\n\r", Gpio);
+	//xil_printf("Read from 0x1000_0000: %x\n\r", Xil_In32(0x10000000) );
+	//--------------  END OF LEDS  ---------------------------------------------
+
+    print("Hello World\n\r");
+
+    /* Configure frame buffer memory to device. */
+Xil_SetTlbAttributes(VGA_FRAME_ADDRESS,VGA_MEMORY_ATTRIBUTE);
+
+    /* Configure the vga object. */
+vga_setup(&vga_obj,(uint32_t*)VGA_CONFIG_BASE_ADDRESS,(vga_frame*)VGA_FRAME_ADDRESS);
+
+    /* Clear frame, draw simple circle, draw to display. */
+    vga_pixel_setup( &vga_pixel_obj, 0x4,0x4,0x4);
+    vga_frame_clear( &vga_frame_obj);
+    vga_frame_draw_circle_filled( &vga_frame_obj,VGA_SCREEN_WIDTH>>1,VGA_SCREEN_HEIGHT>>1,100,vga_pixel_obj);
+    vga_frame_draw( &vga_frame_obj, &vga_obj);
+
+    //for( j=0; j<200; j++) {
+    	//vga_set_pixel( j+150+80, j+80+80, j);
+    //}
+    while(1) {
+    	led = (led + 1) & 0xff;
+    	XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, led);
+//-----------------------------------------------------------------------------------------------
+    int w = 640, h = 240, x, y, temp;
+    //each iteration, it calculates: newz = oldz*oldz + p, where p is the current pixel, and oldz stars at the origin
+    float pr, pi;                   //real and imaginary part of the pixel p
+    float newRe, newIm, oldRe, oldIm;   //real and imaginary parts of new and old z
+    //float zoom = 1, moveX = -0.5, moveY = 0; //you can change these to zoom and change position
+    int maxIterations = 255;//after how much iterations the function should stop
+
+    //loop through every pixel
+        for(x = 0; x < w; x++)
+        {
+        	pr = -2.0 + ( x * 0.0046875 );
+        for(y = 0; y < h; y++)
+        {
+           //calculate the initial real and imaginary part of z, based on the pixel location and zoom and position values
+           //pr = 1.5 * (x - w / 2) / (0.5 * zoom * w) + moveX;
+           //pi = (y - h / 2) / (0.5 * zoom * h) + moveY;
+           //pr = -2.0 + ( x * 0.0046875 );
+           pi = 1.125 - ( y * 0.0046875 );
+           newRe = newIm = oldRe = oldIm = 0; //these should start at 0,0
+           //"i" will represent the number of iterations
+           int i;
+           //start the iteration process
+           for(i = 0; i < maxIterations; i++)
+           {
+             //remember value of previous iteration
+             oldRe = newRe;
+             oldIm = newIm;
+             //the actual iteration, the real and imaginary part are calculated
+             newRe = oldRe * oldRe - oldIm * oldIm + pr;
+             newIm = 2 * oldRe * oldIm + pi;
+             //if the point is outside the circle with radius 2: stop
+             if((newRe * newRe + newIm * newIm) > 4) break;
+            }
+
+            //color(i % 256, 255, 255 * (i < maxIterations));
+            //vga_set_pixel( j+150+80, j+80+80, j);
+            vga_set_pixel( x, y, i);
+            //Set_Pixel(VPG_BASE,x,y,i);
+            temp = 479 - y;
+            vga_set_pixel( x, temp, i);
+            //Set_Pixel(VPG_BASE,x,temp,i);
+        }
+        }
+    }
+//----------------------------------------------------------------------------------------------------------
+
+// -----------  DEBUG STUFF  ----------------------------------------------------
+    xil_printf("Config registers at: %x\n\r", VGA_CONFIG_BASE_ADDRESS);
+//Xil_Out32( (u32) 0x43c00000, 0x00200000 );
+//xil_printf("Wrote 0x43c0_0000. Read: %x\n\r", Xil_In32(0x43c00000) );
+    //xil_printf("Read from 0x1000_0000: %x\n\r", Xil_In32(0x10000000) );
+    //Xil_Out32( (u32) 0x10000000, 0x0 );
+    //xil_printf("Read from 0x1000_0000: %x\n\r", Xil_In32(0x10000000) );
+//Xil_Out32( (u32) 0x43c00008, 0x1 );
+//xil_printf("Wrote 0x43c0_0008. Read: %x\n\r", Xil_In32(0x43c00008) );
+//----------  END OF DEBUG ------------------------------------------------------
+
+    //cleanup_platform();
+    return 0;
+}

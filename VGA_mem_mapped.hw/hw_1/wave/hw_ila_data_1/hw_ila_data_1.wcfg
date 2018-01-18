@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Zynq_Book/VGA_mem_mapped/VGA_mem_mapped.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="7361fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="432"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_state" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_state[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gat_state[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/word_pointer_reg[5]__0_0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/word_pointer_reg[5]__0_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">word_pointer_reg[5]__0_0[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_enable" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_enable</obj_property>
+      <obj_property name="ObjectShortName">gat_enable</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_ready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_ready</obj_property>
+      <obj_property name="ObjectShortName">gat_ready</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_state0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/gat_state0</obj_property>
+      <obj_property name="ObjectShortName">gat_state0</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/output_buff" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/output_buff</obj_property>
+      <obj_property name="ObjectShortName">output_buff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_h_display" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_h_display</obj_property>
+      <obj_property name="ObjectShortName">vga_h_display</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_h_v_display" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_h_v_display</obj_property>
+      <obj_property name="ObjectShortName">vga_h_v_display</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state0__0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state0__0</obj_property>
+      <obj_property name="ObjectShortName">vga_state0__0</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state[0]_i_1_n_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state[0]_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">vga_state[0]_i_1_n_0</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state[1]_i_1_n_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state[1]_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">vga_state[1]_i_1_n_0</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state[1]_i_2_n_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state[1]_i_2_n_0</obj_property>
+      <obj_property name="ObjectShortName">vga_state[1]_i_2_n_0</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state_reg_n_0__1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state_reg_n_0__1[0:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_state_reg_n_0__1[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state_reg_n_0_" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_state_reg_n_0_[1:1]</obj_property>
+      <obj_property name="ObjectShortName">vga_state_reg_n_0_[1:1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_synch" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/vga_synch</obj_property>
+      <obj_property name="ObjectShortName">vga_synch</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/wea" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VGA_top_i/VGA_v1_0_0/U0/VGA_controller_0/wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
