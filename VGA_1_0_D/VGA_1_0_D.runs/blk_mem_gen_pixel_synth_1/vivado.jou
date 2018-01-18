@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Jan 16 18:17:11 2018
+# Process ID: 6224
+# Current directory: C:/Zynq_Book/VGA_1_0_D/VGA_1_0_D.runs/blk_mem_gen_pixel_synth_1
+# Command line: vivado.exe -log blk_mem_gen_pixel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blk_mem_gen_pixel.tcl
+# Log file: C:/Zynq_Book/VGA_1_0_D/VGA_1_0_D.runs/blk_mem_gen_pixel_synth_1/blk_mem_gen_pixel.vds
+# Journal file: C:/Zynq_Book/VGA_1_0_D/VGA_1_0_D.runs/blk_mem_gen_pixel_synth_1\vivado.jou
+#-----------------------------------------------------------
+source blk_mem_gen_pixel.tcl -notrace

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="blk_mem_gen_pixel_synth_1" LaunchDir="C:/Zynq_Book/VGA_1_0_D/VGA_1_0_D.runs/blk_mem_gen_pixel_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
