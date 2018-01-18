@@ -1,4 +1,4 @@
-# Zedboard_Mandel
+# VGA_mem_mapped
 
 ![screenshot](https://github.com/delhatch/VGA_mem_mapped/blob/master/Picture.jpg)
 
