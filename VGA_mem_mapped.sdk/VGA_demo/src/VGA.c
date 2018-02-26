@@ -2,7 +2,7 @@
  * VGA.c
  *
  *  Created on: Oct 15, 2015
- *      Author: Andrew Powell
+ *      Author: Andrew Powell. set_pixel() added by Del Hatch
  */
 #include "VGA.h"
 
