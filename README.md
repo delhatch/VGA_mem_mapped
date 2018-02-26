@@ -27,7 +27,7 @@ Reg #2) Set the lowest bit at this address (OFFSET 0x8) to 1'b1 to start the VGA
 
 ** Performance
 
-The Mandelbrot image takes 2.2 seconds to create, using the ARM processor on the XC7Z020 on the Zedboard. This compares very favorably to Altera NIOS version (on DE2-115) which takes 12 minutes(!).
+The Mandelbrot image takes 2.2 seconds to compute using the ARM processor in the XC7Z020 on the Zedboard. This compares very favorably to Altera NIOS version (on DE2-115) which takes 12 minutes(!).
 
 However, this is much slower than the direct-logic implimentation I created at https://github.com/delhatch/Zedboard_Mandel. Using RTL computation engines it achieves 18.6 frames per second, a speedup of 41 times over this project's ARM-only implementation.
 
